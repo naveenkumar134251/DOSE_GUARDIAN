@@ -79,15 +79,46 @@ To design and implement a microcontroller-based intelligent medicine reminder sy
 ---
 
 ## 📟 Menu Structure
-### Display  
+### 💻 Display  
 <img width="1284" height="880" alt="image" src="https://github.com/user-attachments/assets/e6bc9148-026b-4d88-b575-18ebeab90338" />  
 
 -  Shows current time in HH:MM:SS format
 -  Displays Date (DD/MM/YYYY) and Day
 -  RTC runs continuously ⏳
 
-### Main Menu  
+### 📜 Main Menu  
 <img width="1339" height="886" alt="image" src="https://github.com/user-attachments/assets/e06ce9e3-3bb8-437d-a855-7d11db1c0ebb" />
 
 - MAIN MENU when the SW1 is pressed
+
+### 📖 MEDICINE MENU
+<img width="1292" height="882" alt="Screenshot 2025-12-31 112408" src="https://github.com/user-attachments/assets/cbe23f54-3681-4792-b1e4-f7b5da39325c" />
+
+- If you press option 2
+- It will display options to set the medicine time
+
+### ⏰ MEDICINE TIME ALERT
+![Screenshot_20260102_132823](https://github.com/user-attachments/assets/3fe4fd93-138c-4496-817e-16350ac5f083)
+
+- When pill time matches
+- It display's Time to take medicine
+- And also buzzer is turned ON
+- That indicates the alert 🔔
+
+### ✔️ CONFIRMATION MESSAGE
+![Screenshot_20260102_132830](https://github.com/user-attachments/assets/ccd44ad6-19f5-4791-a4c2-d30bac640d36)
+
+- If user press the SW2 within time
+- Buzzer will be turned OFF 🔕
+- And it display's MEDICINE TAKEN
+
+### ❌ MISSED TO TAKE MEDICINE
+![Screenshot_20260102_132916](https://github.com/user-attachments/assets/283d2a60-f16e-4aba-ac6a-8ec9071f25f2)
+
+- If user didn't press the SW2 within time
+- Buzzer will turned OFF after certain time
+- LED will be turned ON 💡
+- Which indicates user doesn't take the medicine
+
+
 
